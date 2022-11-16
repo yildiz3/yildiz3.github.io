@@ -58,12 +58,12 @@
 
             <nav class="nav-menu">
                 <ul>
-                    <li><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
-                    <li><a href="index.html"><i class="bx bx-user"></i> <span>About</span></a></li>
-                    <li><a href="index.html"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+                    <li><a href="index.html"><i class="bx bx-home"></i> <span>Start</span></a></li>
+                    <li><a href="index.html"><i class="bx bx-user"></i> <span>Über mich</span></a></li>
+                    <li><a href="index.html"><i class="bx bx-file-blank"></i> <span>Lebenslauf</span></a></li>
                     <li class="active"><a href="index.html"><i class="bx bx-book-content"></i> Portfolio</a></li>
-                    <li><a href="index.html"><i class="bx bx-server"></i> Blogs</a></li>
-                    <li><a href="index.html"><i class="bx bx-envelope"></i> Contact</a></li>
+                    <li><a href="index.html"><i class="bx bx-server"></i>Mein Blog</a></li>
+                    <li><a href="index.html"><i class="bx bx-envelope"></i>Kontakt</a></li>
 
                 </ul>
             </nav>
@@ -81,10 +81,10 @@
             <div class="container">
 
                 <div class="d-flex justify-content-between align-items-center">
-                    <h2>Project Details</h2>
+                    <h2>Projekt Details</h2>
                     <ol>
-                        <li><a href="index.html">Home</a></li>
-                        <li>Project Details</li>
+                        <li><a href="index.html">Start</a></li>
+                        <li>Projekt Details</li>
                     </ol>
                 </div>
 
@@ -105,17 +105,17 @@
                     </div>
 
                     <div class="portfolio-info">
-                        <h3>Project information</h3>
+                        <h3>Projekt information</h3>
                         <ul>
-                            <li><strong>Category</strong>: Classification</li>
-                            <li><strong>Project date</strong>: April, 2020</li>
-                            <li><strong>Project URL</strong>: <a href="https://github.com//Sparkify">Github</a></li>
-                            <li><strong>Blog Post</strong>: <a href="https://medium.com/@monika.bagt-customer-churn-using-machine-learning-model-on-spark-99f5277993b7?sk=dfae709ed6563237de260a46195bd783">Medium</a></li>
+                            <li><strong>Kategorie</strong>: Capstone</li>
+                            <li><strong>Projektdatum</strong>: Oktober, 2022</li>
+                            <li><strong>Projekt URL</strong>: <a href="https://github.com/yildiz3/Capstone_Projects/tree/master/3_DS_Capstone_Projects_(Fraud%20Detection)">Github</a></li>
+                            <!-- <li><strong>Blog Post</strong>: <a href="https://medium.com/@yildiz3">Medium</a></li>-->
                         </ul>
                     </div>
 
                 </div>
-                <span>Photo by <a href="https://unsplash.com/@stephaniemccabe?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Stephanie McCabe</a> on <a href="https://unsplash.com/s/photos/spark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+
             </div>
         </section>
         <!-- End Portfolio Details Section -->
@@ -124,9 +124,9 @@
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Sparkify</h2>
+                    <h2>Fraud Detection</h2>
                     <p>
-                        Sparkify is a fictional music streaming service like Spotify or Pandora. This project is completed under Udacity Data Scientist Nanodegree Requirement.
+                        Willkommen beim "*Fraud Detection Project*".Das Ziel dieses Projekts ist es, vorherzusagen, ob eine Kreditkartentransaktion betrügerisch ist.
                     </p>
 
                 </div>
@@ -137,11 +137,11 @@
                     <div class="col-lg-6" data-aos="fade-up">
                         <h3 class="resume-title">Project Requirements</h3>
                         <div class="resume-item pb-0">
-                            <p><em>I am using Sparkify Churn Prediction as a problem statement and using pySpark throughout the project to deploy it on AWS.</em></p>
+                            <p><em>Die Datensätze enthalten Kreditkartentransaktionen von europäischen Karteninhabern im September 2013.</em></p>
                             <ul>
-                                <li>Using pySpark as primary programming language.</li>
-                                <li>Writing a blogpost discussing results.</li>
-                                <li>Running project on AWS Spark platform with 12GB dataset.</li>
+                                <li>Dieser Datensatz stellt Transaktionen dar, die innerhalb von zwei Tagen stattgefunden haben, wobei er 492 Betrugsfälle von 284.807 Transaktionen aufweist.</li>
+                                <li>Der Datensatz ist sehr unausgewogen, die positive Klasse (Betrug) macht 0,172 % aller Transaktionen aus.</li>
+
                             </ul>
                         </div>
 
@@ -155,8 +155,14 @@
                             <h5>Matplotlib</h5>
                             <h5>numPy</h5>
                             <h5>Seaborn</h5>
-                            <h5>DecisionTreeClassifier</h5>
+                            <h5>Deepchecks</h5>
                             <h5>GBTClassifier</h5>
+                            <h5>Yellowbrick</h5>
+                            <h5>XGBoost</h5>
+                            <h5>Random Forest</h5>
+                            <h5>Logistic Regression</h5>
+                            <h5>Neural Network</h5>
+                            <h5>Streamlit API</h5>
                             <h5>RandomForestClassifier</h5>
 
                             <!--h5></h5>
@@ -176,18 +182,13 @@
                         <div class="resume-item">
                             <h4>Major Tasks</h4>
                             <ul>
-                                <li><strong>Data Understanding</strong>: Exploratory Data Analysis on local machine with a small(128mb) Sparkify dataset provided by Udacity.</li>
-                                <li><strong>Data Preparation</strong>: Worked with data challenges like missing values, data cleaning, imputing categorical variables, and identifying a target variable to predict churned customers.</li>
-                                <li><strong>Data Visualizations</strong>: Provided data visualization for a deeper understanding of Sparkify customers.</li>
-                                <li><strong>Modeling</strong>: trained Decision Tree Classifier, Random Forest Classifier, and Gradient Boosting Classifier models and compared the outcomes before choosing the winning model.</li>
-                                <li><strong>Evaluation Metric</strong>: In pySpark, we can not print the confusion matrix, instead, we have to use MulticlassClassificationEvaluator to evaluate accuracy and f1_score. We can also use BinaryClassificationEvaluator
-                                    to calculate Area under the ROC curve and Area under the Precision-Recall.</li>
-                                <li><strong>Results</strong>: After comparing all models on different evaluation metrics, Gradient Boosting performs better than the other two. You can see that f1-score for the Gradient boosting algorithm is 0.90, while Random
-                                    Forest f1-score is 0.79.</li>
-                                <li><strong>Deploy</strong>: Run this project on AWS Spark with 12GB Dataset.</li>
+                                <li>Eine der Herausforderungen in diesem Projekt ist das Fehlen von Domänenwissen. Ohne zu wissen, wie die Spaltennamen lauten, interessieren Sie sich also nur für deren Werte.</li>
+                                <li>In diesem Projekt wenden Sie Prüfungen auf *Datenintegrität, Train-Test-Validierung und Modellbewertung* an</li>
+                                <li>Am Ende des Projekts haben Sie die Möglichkeit, Ihr Modell über *Streamlit API* bereitzustellen.</li>
+                                <li>*Deepchecks* ist eines davon und das führende Tool zum Testen und Validieren Ihrer Machine-Learning-Modelle und -Daten, und das mit minimalem Aufwand.</li>
 
                             </ul>
-                            <p><em>I have followed the CRISP-DM process throughout the project. Completed using Jupyter Notebook.</em></p>
+                            <p><em>Abgeschlossen mit Jupyter Notebook.</em></p>
 
                         </div>
 
@@ -201,9 +202,13 @@
 
                     </div>
                 </div>
+                <br><br>
+                <h4>Screenshots</h4>
+                <div class="owl-carousel portfolio-details-carousel">
+                    <img src="assets/img/dup1.png" class="img-fluid" alt="">
+                    <img src="assets/img/dup2.png" class="img-fluid" alt="">
 
-
-            </div>
+                </div>
         </section>
         <!-- End Resume Section -->
     </main>
